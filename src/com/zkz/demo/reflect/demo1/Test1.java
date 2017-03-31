@@ -1,7 +1,6 @@
-package com.zkz.demo.reflect;
+package com.zkz.demo.reflect.demo1;
 
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 public class Test1 {
 	public static void main(String[] args) {
