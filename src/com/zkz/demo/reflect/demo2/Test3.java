@@ -10,7 +10,6 @@ public class Test3 {
 		Class<?> c = null;
 		try {
 			c = Class.forName("com.zkz.demo.reflect.demo2.Student");
-			System.out.println(c.getName()+"========================");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
