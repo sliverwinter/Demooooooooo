@@ -8,16 +8,16 @@ public class Test1 {
 		//??
 		Class<?> c = null;
 		try {
-			c = Class.forName("com.zkz.demo.reflect.Student");
+			c = Class.forName("com.zkz.demo.reflect.demo1.Student1");
 			System.out.println(c.getName());
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Student s = null;
+		Student1 s = null;
 		Constructor<?>[] cons=c.getConstructors();
 		try {
-			s=(Student) cons[1].newInstance("xiaofeng",111);
+			s=(Student1) cons[1].newInstance("xiaofeng",111);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

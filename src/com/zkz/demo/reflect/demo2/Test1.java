@@ -7,7 +7,7 @@ public class Test1 {
 		
 		Class<?> c = null;
 		try {
-			c = Class.forName("com.zkz.demo.reflect.demo2.Student");
+			c = Class.forName("com.zkz.demo.reflect.demo2.Student2");
 			System.out.println(c.getName()+"========================");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block

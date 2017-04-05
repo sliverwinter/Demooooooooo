@@ -10,7 +10,7 @@ public class Test4 {
 		
 		Class<?> c = null;
 		try {
-			c = Class.forName("com.zkz.demo.reflect.demo2.Student");
+			c = Class.forName("com.zkz.demo.reflect.demo2.Student2");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}

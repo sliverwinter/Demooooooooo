@@ -1,6 +1,6 @@
 package com.zkz.demo.reflect.demo1;
 
-public class Student {
+public class Student1 {
 	
 	private String name;
 	private int age;
@@ -20,11 +20,11 @@ public class Student {
 	}
 	
 	
-	public Student() {
+	public Student1() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Student(String name, int age) {
+	public Student1(String name, int age) {
 		super();
 		this.name = name;
 		this.age = age;
