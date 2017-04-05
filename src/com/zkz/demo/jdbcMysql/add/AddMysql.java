@@ -18,7 +18,7 @@ public class AddMysql {
 
 	public static void insert() {
 		String driver = "com.mysql.jdbc.Driver";
-		String url = "jdbc:mysql://192.168.1.192:3306/pantaishan";
+		String url = "jdbc:mysql://192.168.1.192:3306/zhangkongzhao";
 		String user = "root";
 		String password = "Passw0rd";
 		Connection conn;
@@ -34,7 +34,7 @@ public class AddMysql {
 			// 外层循环，总提交事务次数 700w
 			for (int i = 1; i <= 100; i++) {
 				// 第次提交步长
-				for (int j = 1; j <= 77777; j++) {
+				for (int j = 1; j <=50000 ; j++) {
 					// 构建sql后缀
 					suffix.append("(" + "'ZKZ" + j * i + "'" 
 									  + ", SYSDATE() " 
