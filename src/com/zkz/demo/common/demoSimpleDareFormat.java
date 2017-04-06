@@ -21,12 +21,16 @@ public class demoSimpleDareFormat {
 		return simpleDateFormat.parse(dateStr);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ParseException {
 		Date date = new Date();
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
 		System.out.println(simpleDateFormat.format(date));
-		
 		System.out.println("******:"+formatDate(date,"yyyy-MM-dd"));
+		
+		String dateStr="1990-04-02 15:36:12";
+		Date format2=formateDateStr(dateStr, "yyyy-MM-dd HH:mm:ss");
+		System.out.println(formatDate(format2, "yyyy.MM.dd HH:mm:ss"));
+		
 		
 	}
 	
